@@ -1,0 +1,5 @@
+C:\Users\wisdo\OneDrive\Desktop\EmployeeManagementCleanArchitecture\Employee.Application\obj\Debug\net6.0\Employee.Application.csproj.AssemblyReference.cache
+C:\Users\wisdo\OneDrive\Desktop\EmployeeManagementCleanArchitecture\Employee.Application\obj\Debug\net6.0\Employee.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wisdo\OneDrive\Desktop\EmployeeManagementCleanArchitecture\Employee.Application\obj\Debug\net6.0\Employee.Application.AssemblyInfoInputs.cache
+C:\Users\wisdo\OneDrive\Desktop\EmployeeManagementCleanArchitecture\Employee.Application\obj\Debug\net6.0\Employee.Application.AssemblyInfo.cs
+C:\Users\wisdo\OneDrive\Desktop\EmployeeManagementCleanArchitecture\Employee.Application\obj\Debug\net6.0\Employee.Application.csproj.CoreCompileInputs.cache

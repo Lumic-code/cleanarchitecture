@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MediatR/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "Employee.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Employee.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employee.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/6.0.0": {
+      "sha512": "R01T5Af1kSH9lBvlxdTeJOr+ugPwfy0FsFq15XsNAIA8GSUYwHW7lfvYGwhBynwJVXWxRwieqxOxCFEV9GO+SQ==",
+      "type": "package",
+      "path": "mediatr/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.6.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "Employee.Core/1.0.0": {
+      "type": "project",
+      "path": "../Employee.Core/Employee.Core.csproj",
+      "msbuildProject": "../Employee.Core/Employee.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Employee.Core >= 1.0.0",
+      "MediatR >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wisdo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\wisdo\\OneDrive\\Desktop\\EmployeeManagementCleanArchitecture\\Employee.Application\\Employee.Application.csproj",
+      "projectName": "Employee.Application",
+      "projectPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\EmployeeManagementCleanArchitecture\\Employee.Application\\Employee.Application.csproj",
+      "packagesPath": "C:\\Users\\wisdo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\EmployeeManagementCleanArchitecture\\Employee.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\wisdo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\wisdo\\OneDrive\\Desktop\\EmployeeManagementCleanArchitecture\\Employee.Core\\Employee.Core.csproj": {
+              "projectPath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\EmployeeManagementCleanArchitecture\\Employee.Core\\Employee.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

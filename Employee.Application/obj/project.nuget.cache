@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kw3/e6O/mquGg6TLiVn1I6ASoFpVEl3VeUacWxV76csSiykzK0ZPeT/7FI3sQGNJmL9WFgb9ZCpZtBGFb4TamA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wisdo\\OneDrive\\Desktop\\EmployeeManagementCleanArchitecture\\Employee.Application\\Employee.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wisdo\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
